@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
+import Counter from "./Components/Counter";
 
 function App() {
   return (
-    <div className="App">
-
+    <div className='App'>
+      <Counter />
     </div>
   );
 }
